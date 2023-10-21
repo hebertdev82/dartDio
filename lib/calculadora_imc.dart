@@ -16,19 +16,19 @@ double imc(double? peso, altura) {
 String mensagemImc(double imc) {
   switch (imc) {
     case < 16:
-      return "Magreza grave";
+      return "Magreza Grave";
     case >= 16 && < 17:
-      return "Magreza moderada";
+      return "Magreza Moderada";
     case >= 17 && < 18.5:
-      return "Magreza leve";
+      return "Magreza Leve";
     case >= 18.5 && < 25:
       return "Saudável";
     case >= 25 && < 30:
       return "Sobrepeso";
     case >= 30 && < 35:
-      return "Obesidade grau I";
+      return "Obesidade Grau I";
     case >= 35 && < 40:
-      return "Obesidade grau II (severa)";
+      return "Obesidade Grau II (severa)";
     case >= 40:
       return "Obesidade grau III (mórbida)";
     default:
